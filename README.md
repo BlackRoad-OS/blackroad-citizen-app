@@ -1,26 +1,43 @@
-# 🖤🛣️ BlackRoad Citizen App
+# BlackRoad Citizen App
 
-Part of the BlackRoad Product Empire - 350+ enterprise solutions
+Civic engagement platform connecting citizens with local government. Report issues, vote on initiatives, access services.
 
-## 🚀 Quick Start
+## Features
+
+- **Issue Reporting** - Report potholes, graffiti, outages
+- **Service Requests** - Apply for permits, licenses
+- **Voting** - Participate in local initiatives
+- **Notifications** - Alerts for your neighborhood
+- **Transparency** - Track government spending
+- **Privacy** - Citizen data protection
+
+## Modules
+
+| Module | Description |
+|--------|-------------|
+| 311 | Non-emergency service requests |
+| Voting | Secure ballot initiatives |
+| Alerts | Emergency and community notifications |
+| Budget | Interactive spending explorer |
+| Council | Meeting schedules and agendas |
+
+## Quick Start
 
 ```bash
-./blackroad-citizen-app.sh
+./blackroad-citizen-app.sh init --city "Your City"
+./blackroad-citizen-app.sh configure --modules all
+./blackroad-citizen-app.sh deploy
 ```
 
-## 🎨 BlackRoad Design System
+## For Governments
 
-- **Hot Pink**: #FF1D6C
-- **Amber**: #F5A623  
-- **Electric Blue**: #2979FF
-- **Violet**: #9C27B0
+- Reduce call center volume
+- Improve citizen satisfaction
+- Increase civic participation
+- Data-driven decision making
+- Transparent operations
 
-## 📚 Documentation
+## License
 
-Full docs: https://docs.blackroad.io
-
-## 🖤 BlackRoad Empire
-
-Part of 350+ products across 46 categories. Built with ∞ vision.
-
-**BlackRoad OS, Inc.** | Built with Claude
+Copyright (c) 2026 BlackRoad OS, Inc. All rights reserved.
+Proprietary software. For licensing: blackroad.systems@gmail.com
